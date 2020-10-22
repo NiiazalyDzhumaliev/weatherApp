@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 ```
-- git clone https://github.com/paulzay/weatherapp;
+- git clone https://github.com/NiiazalyDzhumaliev/weatherApp.git;
 - cd weatherapp/
 - npm install
 - npm webpack --watch
