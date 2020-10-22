@@ -34,7 +34,7 @@ async function getWeather(chosenCity) {
 const formSubmit = () => {
   form.addEventListener('submit', event => {
     const chosenCity = city.value;
-    cityLabel.textContent = `City name: ${chosenCity}`;
+    cityLabel.textContent = `${chosenCity}`;
     getWeather(chosenCity);
     event.preventDefault();
     form.reset();

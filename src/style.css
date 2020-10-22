@@ -4,8 +4,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #34383d;
+  color: #47474d;
   font-family: 'Varela Round', sans-serif;
+}
+
+#city-label {
+  font-weight: bold;
 }
 
 #weather-list {
