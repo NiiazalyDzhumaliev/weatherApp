@@ -1,0 +1,6 @@
+body {
+  background: url(./assets/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}

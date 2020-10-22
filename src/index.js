@@ -1,5 +1,9 @@
+import './style.css';
+
 const city = document.getElementById('city-name');
 const temperature = document.getElementById('weather-temp');
+const wind = document.getElementById('weather-wind');
+const sky = document.getElementById('weather-sky');
 const form = document.querySelector('.city-form');
 
 
@@ -16,7 +20,9 @@ async function getWeather(chosenCity) {
     const response = await fetch(url, { mode: 'cors' });
     const weatherData = await response.json();
     const currentTemp = toCelsius(weatherData.main.temp);
-    temperature.textContent = `${currentTemp}\xB0C`;    
+    temperature.textContent = `Temperature: ${currentTemp}\xB0C`;
+    sky.textContent = `Sky: ${weatherData.weather[0].main}`;
+    wind.textContent = `Wind: ${weatherData.wind.speed}m/s`;
   } catch (error) {
     temperature.textContent = `${chosenCity} is wrong`;
   }
