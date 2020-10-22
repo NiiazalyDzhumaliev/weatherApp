@@ -60,7 +60,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The Odin Project
-- unsplash.com: [author of background image](https://unsplash.com/photos/FIKD9t5_5zQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+- unsplash.com: [Author of the background image](https://unsplash.com/photos/FIKD9t5_5zQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 ## 📝 License
 
