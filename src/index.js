@@ -5,6 +5,7 @@ const temperature = document.getElementById('weather-temp');
 const wind = document.getElementById('weather-wind');
 const sky = document.getElementById('weather-sky');
 const form = document.querySelector('.city-form');
+const cityLabel = document.getElementById('city-label');
 
 
 const toCelsius = inFahr => {
@@ -25,12 +26,15 @@ async function getWeather(chosenCity) {
     wind.textContent = `Wind: ${weatherData.wind.speed}m/s`;
   } catch (error) {
     temperature.textContent = `${chosenCity} is wrong`;
+    sky.textContent = '';
+    wind.textContent = '';
   }
 }
 
 const formSubmit = () => {
   form.addEventListener('submit', event => {
     const chosenCity = city.value;
+    cityLabel.textContent = `City name: ${chosenCity}`;
     getWeather(chosenCity);
     event.preventDefault();
     form.reset();
