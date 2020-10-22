@@ -3,7 +3,7 @@ Weather App using API
 
 > This is an assigment for Microverse JavaScript course. The goal is to create a website using JavaScript API to show weather in the city.
 
-![screenshot](src/assets/Screenshot.png)
+![screenshot](src/assets/Screenshot_1.png)
 
 Additional description about the project and its features.
 
