@@ -7,6 +7,10 @@ Weather App using API
 
 Additional description about the project and its features.
 
+## Live Version
+
+[Live Weather APP](https://rawcdn.githack.com/NiiazalyDzhumaliev/weatherApp/2162fd886596d826e966bb66210e048a1503b717/dist/index.html)
+
 ## Built With
 
 - HTML,
