@@ -1,13 +1,17 @@
 import convertToF from './converterToF';
+import convertToC from './converterToC';
 
-const toggleBtn = document.getElementById('toggle');
-
-const toggleTemp = (temp, inCels) => {
+const toggleTemp = () => {
+  const toggleBtn = document.getElementById('toggle');
+  const temperature = document.getElementById('weather-temp');
+  const degree = document.getElementById('weather-degree');
   toggleBtn.addEventListener('click', () => {
-    if (temp.textContent === `Temperature: ${inCels}\xB0C`) {
-      temp.textContent = `Temperature: ${convertToF(inCels)}\xB0F`;
+    if (degree.textContent === '\xB0C') {
+      temperature.textContent = `${convertToF(temperature.textContent)}`;
+      degree.textContent = '\xB0F';
     } else {
-      temp.textContent = `Temperature: ${inCels}\xB0C`;
+      temperature.textContent = `${convertToC(temperature.textContent)}`;
+      degree.textContent = '\xB0C';
     }
   });
 };
