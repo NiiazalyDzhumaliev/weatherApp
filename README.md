@@ -9,7 +9,7 @@ Additional description about the project and its features.
 
 ## Live Version
 
-[Live Weather APP](https://rawcdn.githack.com/NiiazalyDzhumaliev/weatherApp/6f9d518962525b0a26303d977c05ba104eec0618/dist/index.html)
+[Live Weather APP](https://rawcdn.githack.com/NiiazalyDzhumaliev/weatherApp/2b17860b31bd2f2187bc9698f60bdcefecec23a8/dist/index.html)
 
 ## Built With
 
