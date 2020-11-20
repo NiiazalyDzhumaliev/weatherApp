@@ -4,6 +4,8 @@
   "description": "As part of Microverse curriculum",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/NiiazalyDzhumaliev/weatherApp#readme",
   "devDependencies": {
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.1.3",
     "webpack-cli": "^4.1.0"
   }
